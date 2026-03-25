@@ -5,6 +5,7 @@ export function generateHeader() {
     "# Regenerate with: cc-statusline generate",
     "",
     "set -euo pipefail",
+    "LC_ALL=C",
     "",
   ].join("\n");
 }
